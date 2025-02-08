@@ -1,0 +1,46 @@
+{
+  "name": "mcp-server-pagespeed",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol server for Google PageSpeed Insights",
+  "type": "module",
+  "bin": {
+    "mcp-pagespeed": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "start": "node build/index.js",
+    "dev": "ts-node --esm index.ts",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "pagespeed",
+    "google",
+    "performance"
+  ],
+  "author": "@enemyrr",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "axios": "^1.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enemyrr/mcp-server-pagespeed"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
