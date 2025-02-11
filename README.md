@@ -24,6 +24,14 @@ npm run build
 
 > **Note**: Replace `/absolute/path/to/` with the actual path where you cloned and built the project.
 
+## Command-line Usage
+
+Just run:
+
+```bash
+npx mcp-server-pagespeed
+```
+
 ## Available Tools
 
 ### analyze_pagespeed
