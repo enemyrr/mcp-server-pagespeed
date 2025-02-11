@@ -1,11 +1,22 @@
 # @enemyrr/mcp-server-pagespeed
 
+[![smithery badge](https://smithery.ai/badge/@enemyrr/mcp-server-pagespeed)](https://smithery.ai/server/@enemyrr/mcp-server-pagespeed)
+
 A Model Context Protocol server that provides Google PageSpeed Insights analysis. This server enables AI models to analyze webpage performance through a standardized interface.
 
 <a href="https://glama.ai/mcp/servers/wes81w8il2"><img width="380" height="200" src="https://glama.ai/mcp/servers/wes81w8il2/badge" alt="Server Pagespeed MCP server" /></a>
 
 ## Installation & Setup for Cursor IDE
 
+### Installing via Smithery
+
+To install PageSpeed for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@enemyrr/mcp-server-pagespeed):
+
+```bash
+npx -y @smithery/cli install @enemyrr/mcp-server-pagespeed --client claude
+```
+  
+### Manual Installation
 1. Clone and build the project:
 ```bash
 git clone https://github.com/enemyrr/mcp-server-pagespeed.git
