@@ -2,6 +2,8 @@
 
 A Model Context Protocol server that provides Google PageSpeed Insights analysis. This server enables AI models to analyze webpage performance through a standardized interface.
 
+<a href="https://glama.ai/mcp/servers/wes81w8il2"><img width="380" height="200" src="https://glama.ai/mcp/servers/wes81w8il2/badge" alt="Server Pagespeed MCP server" /></a>
+
 ## Installation & Setup for Cursor IDE
 
 1. Clone and build the project:
